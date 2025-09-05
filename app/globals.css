@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-narrow { @apply mx-auto max-w-6xl px-4; }
+.card { @apply rounded-2xl border bg-white shadow-sm; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium transition active:scale-[.98]; }
+.btn-primary { @apply bg-indigo-700 text-white hover:bg-indigo-800; }
+.btn-ghost { @apply bg-white text-gray-700 border hover:bg-gray-50; }
+.btn-subtle { @apply bg-indigo-50 text-indigo-800 border border-indigo-100 hover:bg-indigo-100; }
+.input { @apply w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200; }
+.label { @apply mb-1 text-sm font-medium text-gray-800; }
